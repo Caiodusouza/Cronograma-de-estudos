@@ -16,6 +16,8 @@ class cronogramasEstudos {
     public :
         void adicionarMateria(cronogramasEstudos string& nome, int horas) {
             materia novaMateria = { nome,horas};
-            ma
+            materias.push_back(novaMateria);
+            cout << "materia adicionada : " << "-" << horas << "horas." << endl;
         }
+        
 }
